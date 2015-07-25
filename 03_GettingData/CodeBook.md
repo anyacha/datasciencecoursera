@@ -36,5 +36,7 @@ a tidy dataset with the following columns:
 
 * subject_id: 30 deidentified volunteers
 * activity_label: 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-* variable: a list of measurements that deal with the mean and standard deviation of captured measurements
-* variableAverage: aggregated mean of each variable (as specified above) by each subject and each activity.
+* variable: a list of measurements that deal with the mean and standard deviation of captured measurements.  
+I.e. tBodyAcc.mean.X; tBodyAcc.std.Y
+* variableAverage: aggregated mean of each variable (as specified above) by each subject and each activity.  
+Units: measurements are normalized and bounded within [-1,1], same applies to their means. 
